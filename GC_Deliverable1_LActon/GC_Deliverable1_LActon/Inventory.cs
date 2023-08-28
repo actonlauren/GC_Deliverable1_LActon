@@ -31,8 +31,6 @@ if (sodaStringtoInt < sodaBaseStock)
     if (currentSodaStock <= sodaRestockQuantity)
     {
         itemsToBeRestocked.Add("Soda");
-        //Console.WriteLine("Thank you for your input. The following items need to be restocked:");
-        //Console.WriteLine(string.Join(",", itemsToBeRestocked));
     }
     else
         Console.WriteLine("At this time sodas do not need to be restocked.\n");
@@ -53,8 +51,6 @@ if (chipsStringtoInt < chipsBaseStock)
     if (currentChipsStock <= chipsRestockQuantity)
     {
         itemsToBeRestocked.Add("Chips");
-        //Console.WriteLine("Thank you for your input. The following items need to be restocked:");
-        //Console.WriteLine(string.Join(",", itemsToBeRestocked));
     }
     else
         Console.WriteLine("At this time chips do not need to be restocked.\n");
